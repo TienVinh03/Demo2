@@ -1,0 +1,162 @@
+.thumb{
+    position: relative;
+    padding: 10px;
+}
+.news-sale{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+}
+.text{
+    font-weight: lighter;
+    text-align: center;
+}
+.news{
+    background: rgb(225, 222, 213);
+    padding: 20px;
+}
+.news-sale span{
+    display: block;
+
+}
+.off{
+    color: white;
+    padding: 5px;
+    background: red;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+}
+.new2{
+    position: absolute;
+    color: white;
+    background: rgb(194, 213, 164);
+    padding: 5px;
+    left: 0;
+    bottom: 20%;
+}
+/* .row{
+    padding: 50px;
+    width: 100%;
+} */
+.col{
+   
+    padding: 0 10px;
+    display: flex;
+    
+}
+.col h3,.col p{
+    text-align: center;
+    display: block;
+
+}
+.new,.sale{
+    background: greenyellow;
+    padding: 2px 5px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sale{
+    padding: 2px 5px;
+    background: red;
+    border-radius: 0 5px 5px 0;
+}
+.news-item a{
+    display: block;
+    margin: 0px auto;
+    width: 120px;
+    background: yellowgreen;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.news-item a:hover{
+    background: red;
+}
+
+.news-item {
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px 0;
+}
+
+
+
+
+/* lap 7 */
+
+.menu{background: greenyellow;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.top1{
+    display: flex;
+    padding: 3px;
+    font-weight: bold;
+    
+}
+.top1 i{
+    margin-top: -10px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+.top1 h6{
+    margin-left: 10px;
+    display: inline-block;
+    color: white;
+}
+
+.account nav ul{
+    
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    list-style: none;
+}
+.account nav ul li{
+   
+    display: inline-block;
+    padding: 2px 30px;
+}
+.account nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: right;
+    font-weight: bold;
+}
+.menu1{
+    display: flex;
+    padding: 20px;
+    background: goldenrod;
+    height: 80px;
+}
+.menu1 img{
+   width: 20%;
+}
+.menu1 nav ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+   
+    justify-content: end;
+    
+}
+.menu1 nav ul li{
+    padding: 0 20px;
+}
+.menu1 nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav{
+    width: 100%;
+}

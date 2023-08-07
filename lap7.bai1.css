@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wapper{
+    position: relative;
+}
+header{
+    /* position: absolute;
+    z-index: 2; */
+    width: 100%;
+}
+/* #wapper header nav {
+    /* background: transparent !important; */
+
+/* } */ */
+header nav ul li a.nav-link{
+    color: white;
+    padding: 10px 20px !important;
+    text-transform: uppercase;
+    
+
+}
+header nav ul{
+    justify-content: end;
+}
+.container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.them{
+    max-width: 100%;
+    background: greenyellow;
+}
+.navbar navbar-expand-lg bg-body-tertiary{
+    background:greenyellow !important;
+    margin: 0 !important;
+}
+.container-fluid{
+    background: greenyellow;
+   padding: 0 40px;
+   margin: 0;
+    
+}
+.navbar{
+    text-align: center;
+}
+
+
+header nav ul li a.nav-link.active,header nav ul li a.nav-link:focus{
+    color: rgb(186, 199, 112) !important;font-weight: bold;
+}
+header nav ul li a.nav-link:hover{
+    color: blue;
+}
+header nav ul{
+    width: 100%;
+    justify-content: start;
+    padding: 0 30px;
+}
+
+header .navbar-brand{
+    margin-right: 50px;
+}
+/* #formDk{
+    background: white;
+    padding: 60px;
+}
+#formDk h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 30px;
+}
+.row-group{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.row-group div{
+    width: 48%;
+
+}
+.row-group input{
+    width: 100%;
+    padding: 8px 15px ;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#formDk form{
+    width: 800px;
+    margin: 0 auto;
+}
+#formDk p{
+    
+    margin-bottom: 5px;
+}
+#formDk textarea{
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+#formDk input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background: orange;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 700;
+}
+#formDk input[type="submit"]:hover{
+    background: greenyellow;
+} */
+.top1 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background: goldenrod !important;
+    color: white !important;
+    font-weight: bold;
+    margin: 0;
+    height: 40px;
+    
+}
+
+.top11{
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+    max-width: 100%;
+}
+.top11 h6{
+    margin-right: 10px;
+    font-weight: bold;
+    
+}
+.top11 i{
+    margin-top: 2px;
+    font-weight: bold;
+}
+.top11 h6,.top11 i{
+    line-height: 30px;
+}
+
+/* .text11{
+    width: 100%;
+    background: goldenrod !important;
+    text-align: right;
+    display: flex;
+    font-size: 10px;
+    margin: 0;
+    
+} */
+.text11 nav {
+    background: goldenrod !important;
+}
+.text11 nav ul {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    
+    list-style: none;
+    
+}
+.text11 nav ul li{
+    padding: 0 20px;
+    /* flex-wrap: wrap; */
+}
+.text11 nav ul li a{
+    color: white !important;
+    text-decoration: none;
+    line-height: 30px;
+}
+.banner img{
+    width: 100%;
+    height: 300px;
+}
+.end{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 10px;
+    margin-top: 30px;
+    width: 95%;
+    margin: 0 auto;
+}
+.container1{width: 95%;
+margin: 0 auto;}
+
+.end p{
+    color: gray;
+    
+}
+.shop p{
+    text-align: left;
+    color: gray;
+}
+.end h5{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.stay input[type = "text"]{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.stay input[type ="submit"]{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: rgb(211, 174, 81);
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+.logo2{
+    display: flex;
+    justify-content: space-between;
+}
+.logo2 p{
+    margin: 10px;
+}
+.footer-main{
+    width: 100%; background: rgb(189, 189, 189);
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+.footer{
+    width: 95%;
+    margin: 0 auto;
+    height: 50px;
+}
+.logo3{
+    display: flex;
+    justify-content: end;
+}
+.chu p{
+    line-height: 50px;
+}
+.logo3 img{
+    width: 20%;
+    margin-top: 5px;
+    height: 70%;
+}
+
+
+@media screen and (max-width : 850px){
+    .end{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .stay{
+        width: 200%;
+    }
+    .end p{
+        color: gray;
+        font-size: 15px;
+    }
+    .end h5{
+        font-size: 15px;
+    }
+    .text11 nav ul li a{
+        font-size: 10px;
+        width: auto;
+    }
+    .text11 nav ul li {
+        width: auto;
+    }
+    .top11{
+        width: 100%;
+        
+    }
+    .top11 h6{
+        width: auto;
+        font-size: 10px;
+    }
+    .top11 i{
+        font-size: 10px;
+    }
+    .container nav ul li a{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 550px){
+    .text11 nav ul li a{
+        font-size: 8px;
+        width: auto;
+    }
+    .top11 h6 {
+        margin-right: 5px;
+        font-weight: bold;
+    }
+    .top1 {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        background: goldenrod !important;
+        color: white !important;
+        font-weight: bold;
+        margin: 0;
+        height: 40px;
+        
+    }
+    .text11 nav ul li{
+        padding: 0 5px;
+    }
+    .container nav ul li a{
+        font-size: 10px;
+    }
+    .navbar-toggler-icon{
+        margin-left: 200px;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-brand {
+        width: 70%;
+        text-align: center;
+    }
+    .navbar-brand a{
+        width: 50%;
+    }
+    .navbar-toggler-icon{
+        justify-content: center;
+    }
+    .navbar{
+        text-align: center;
+    }
+    .navbar img{
+        margin-left: 30px;
+        
+    }
+    .stay{
+        width: 150%;
+    }
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width : 467px){
+    .navbar img{
+        margin-left: 5px;
+        
+    }
+}
+
+
+
+
+
+
